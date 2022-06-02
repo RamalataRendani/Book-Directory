@@ -1,0 +1,24 @@
+{
+  "name": "book-directory",
+  "version": "1.0.0",
+  "description": "Simple books directory API, NodeJS, Express.js, MySQL and PostMan(for testing)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamalataRendani/Book-Directory.git"
+  },
+  "author": "Rendani Ramalata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RamalataRendani/Book-Directory/issues"
+  },
+  "homepage": "https://github.com/RamalataRendani/Book-Directory#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  }
+}
