@@ -5,7 +5,7 @@ Build a book directory having a collection of books where you can create endpoin
 Features of Books Directory:
 Management of database using POSTMAN.
 Options to create,read, update, delete genre
-Option to create,read,update,delete aauthors
+Option to create,read,update,delete authors
 Option to create( attach book to genre), read,update,delete book
 Search for the required book.
 Option which lists all the authors and genres.
