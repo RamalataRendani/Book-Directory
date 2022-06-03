@@ -21,6 +21,12 @@ app.get('/',(req,res) => {
     res.json({message: 'Welcome to the books directory'})
 });
 
+//import  bookDir routes file
+const  bookDirRoutes = require('./app/routers/bookDir.route');
+
+//create bookDir routes
+app.use('/api',bookDirRoutes);
+
 //setup server port
 const PORT = process.env.PORT || 8081;
 
