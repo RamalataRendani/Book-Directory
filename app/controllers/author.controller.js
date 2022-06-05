@@ -57,7 +57,7 @@ exports.updateAuthor = (req,res) =>{
 
 //delete author
 exports.deleteAuthor = (req,res)=>{
-    AuthorModel.deleteAuthor(req.params.id, (err, genre)=>{
+    AuthorModel.deleteAuthor(req.params.id, (err, author)=>{
         if(err)
         res.send(err);
         res.json({success: true, message: 'Author deleted successfully!'});
